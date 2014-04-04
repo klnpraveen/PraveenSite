@@ -1,4 +1,5 @@
 <?php echo doctype('html5'); ?>
+<html>
 <head>
 	<title>K L N Praveen's Blog</title>
 	<?php 
@@ -29,22 +30,17 @@
 	?>
 </head>
 <body>
-<div class="container">
-
-	<div id="header" class="navbar" role="navigation">
-		<div class="navbar-header">
-        	<?php echo anchor('https://www.facebook.com/naga.rockwills','<i class="fa fa-facebook"></i>','style="color:#fff"') ?> <i class="fa fa-twitter"></i> Welcome To K L N Praveen's Blog
-        </div>
+	<div class="row">
+		<div class="col-md-12">
+			<div id="header" class="navbar" role="navigation">
+				<div class="navbar-header">
+					<?php echo anchor('https://www.facebook.com/naga.rockwills','<i class="fa fa-facebook"></i>','style="color:#fff"') ?> <i class="fa fa-twitter"></i> Welcome To K L N Praveen's Blog
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="row">
-		<div class="left-sidebar">
-			hi
-		</div>
-	
-		<div class="content">
-			<div class="row">
-				<div class="col-md-12">
-		<!-- content starts here -->
+		
 	
 	
 		
