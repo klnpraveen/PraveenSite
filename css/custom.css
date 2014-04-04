@@ -1,8 +1,20 @@
+.row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
 .navbar
 {
 	background: #2980b9;
 	position: fixed;
 	color: #fff;
+	padding: 10px;
 	border-radius: 0px;
 	width: 100% !important;
+}
+.left-navbar
+{
+	position: fixed;
+	background: #000;
+	width: 20%;
 }

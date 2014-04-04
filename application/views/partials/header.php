@@ -27,20 +27,20 @@
 	echo link_tag($link_custom);
 	echo link_tag($link_fontawesome);
 	echo link_tag($link_fontawesomemin);
+	echo link_tag('images/favicon.ico', 'shortcut icon', 'image/ico');
 	?>
 </head>
 <body>
 	<div class="row">
-		<div class="col-md-12">
-			<div id="header" class="navbar" role="navigation">
-				<div class="navbar-header">
-					<?php echo anchor('https://www.facebook.com/naga.rockwills','<i class="fa fa-facebook"></i>','style="color:#fff"') ?> <i class="fa fa-twitter"></i> Welcome To K L N Praveen's Blog
-				</div>
-			</div>
+		<div class="col-md-12 navbar">
+			<?php echo anchor('https://www.facebook.com/naga.rockwills','<i class="fa fa-facebook"></i>','style="color:#fff"') ?> <i class="fa fa-twitter"></i> Welcome To K L N Praveen's Blog
 		</div>
 	</div>
 	<div class="row">
-		
+			<div class="left-navbar">
+				hi
+			</div>
+			
 	
 	
 		
