@@ -1,5 +1,5 @@
 <?php echo doctype('html5'); ?>
-<html>
+<html lang="en">
 <head>
 	<title>K L N Praveen's Blog</title>
 	<?php 
@@ -31,18 +31,45 @@
 	?>
 </head>
 <body>
-	<div class="row">
-		<div class="col-md-12 navbar">
-			<?php echo anchor('https://www.facebook.com/naga.rockwills','<i class="fa fa-facebook"></i>','style="color:#fff"') ?> <i class="fa fa-twitter"></i> Welcome To K L N Praveen's Blog
-		</div>
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+	
+	<div class="col-md-2 left-navbar   nav navbar-left">
+		<ul class="menu list-unstyled">
+			<li>Home</li>
+			<li>About Me</li>
+			<li>menu</li>
+			<li>Contact</li>
+			<li>Sign In</li>
+		</ul>
 	</div>
-	<div class="row">
-			<div class="left-navbar">
-				hi
-			</div>
-			
+	<div class="col-md-10 content">
+		
+	
+
+	
+
 	
 	
-		
-			
-		
+
+
