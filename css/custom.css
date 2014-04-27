@@ -1,39 +1,29 @@
-.row
+.drp
 {
-	margin-left: 0px !important;
-	margin-right: 0px !important;
-
+  margin-left: 10px;
 }
-.navbar
+.inpgrp
 {
-	background: #2980b9;
-	z-index: 10000;
+  margin: 0px !important;
 }
-.left-navbar
+.sps
 {
-	background: #646464;
-	color: #fff;
-	position: absolute;
-	height: 100% !important;
-	width: 250px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
-.menu
+.cart
 {
-	padding-top: 70px;
-	padding-left: 15px;
-	line-height: 25px;
+  color: white;
 }
-@media(max-width: 1024px){
-	.left-navbar
-	{
-		visibility: hidden;
-	}
-	.content
-	{
-		margin-left: 0px !important;
-	}
-}
-.content
+.tab-pane .row
 {
-	margin-left: 250px;
+  margin-left: 25px;
+}
+.gologin a
+{
+  text-decoration: none;
+}
+.vcart
+{
+  width: 50px;
 }
