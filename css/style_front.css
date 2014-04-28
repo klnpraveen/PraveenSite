@@ -381,7 +381,7 @@ a {
 .navbar.nav-delighted.navbar-default .search-form input {
   height: 32px;
   width: 155px;
-  border-radius: 16px;
+  border-radius: 0px;
   color: #23bab5;
   padding-left: 30px;
   background-color: white;
@@ -652,8 +652,8 @@ a {
   margin-left: 0px !important;
 }
 .content .row {
-  margin-right: -15px;
-  margin-left: -15px !important;
+  margin-right: 0px;
+  margin-left: 0px !important;
 }
 .content.user-details-open {
   margin-left: 50px;
