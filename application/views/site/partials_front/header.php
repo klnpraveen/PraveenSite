@@ -1,7 +1,7 @@
 <?php echo doctype('html5'); ?>
 <html lang="en">
 <head>
-	<title>K L N Praveen's Blog</title>
+	<title>Leela Naga Praveen</title>
 	<?php 
 	$link_bootstrap = array(
 		'href' => 'css/bootstrap.css',
@@ -21,7 +21,7 @@
 	echo link_tag($link_bootstrap);
 	echo link_tag($link_fstyle);
 	echo link_tag($link_custom);
-	echo link_tag('images/favicon.ico', 'shortcut icon', 'image/ico');
+	echo link_tag('images/favicon.png', 'shortcut icon', 'image/ico');
 	?>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
             <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
