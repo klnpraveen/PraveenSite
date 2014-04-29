@@ -11,7 +11,7 @@
 	<section class="selected">
 		<h1>
 			<a href="#" class="brand">
-				<img src="images/blog-image.png" alt=""></a>
+				<img src="<?php echo base_url(); ?>images/blog-image.png" alt=""></a>
 			</h1>
 			<h2>Smart and beautiful Admin template</h2>
 		</section>
