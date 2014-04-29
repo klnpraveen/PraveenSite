@@ -2,9 +2,9 @@
 </div>
 </div>
 <!-- /.content -->
-
 </div>
-
+<!-- /.box-holder -->
+</div>
 <!-- /.site-holder -->
 <!-- This section is for Splash Screen -->
 <div id="jSplash">
