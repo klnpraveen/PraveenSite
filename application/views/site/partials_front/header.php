@@ -85,7 +85,7 @@
           </li>
           <li>
             <a href="lock.html" class="settings">
-              <i class="fa fa-cogs"></i>
+              <i class="fa fa-power-off"></i>
             </a>
           </li>
         </ul>

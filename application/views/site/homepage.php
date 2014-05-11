@@ -3,15 +3,15 @@
 	<div class="col-md-12" id="div_1">
 		
 
-<!-- Fixed Panel -->
+
 	
     
   <div class="col-md-12 invoice-main" id="div_1">
     <div class="panel panel-primary">
       <div class="panel-heading invoice-head">
        <h3 class="panel-title">
-         <i class="fa fa-money"></i> <strong>Invoice</strong>
-         <p class="pull-right">Date of invoice:14 march 2014</p>
+         <strong><?php echo 'Welcome to my Blog'; ?></strong>
+         
       </h3>
     </div>
     <div class="panel-body invoice-main">
